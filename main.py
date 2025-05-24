@@ -16,7 +16,7 @@ with sr.AudioFile(audio_path) as source:
 
     print("Transcribing...")
     try:
-        text = recognizer.recognize_google(audio_data, language="hi-IN")
+        text = recognizer.recognize_google(audio_data, language="en-IN")
         print("\n--- Transcription ---")
         print(text)
 
